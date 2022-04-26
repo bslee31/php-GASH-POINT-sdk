@@ -1,0 +1,25 @@
+{
+    "name": "bslee31/gash-point-sdk",
+    "description": "GASH POINT SDK for PHP",
+    "keywords": ["GASH POINT", "sdk"],
+    "require": {
+        "php": "^7.1|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-openssl": "*",
+        "ext-dom": "*",
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GashPoint\\": "src/GashPoint/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GashPoint\\Tests\\": "tests/"
+        }
+    }
+}
